@@ -19,3 +19,9 @@ variable "rg_tags" {
 variable "service_principal_name" {
   type = string
 }
+
+
+# keyvault
+variable "keyvault_name" {
+    type = string
+}
